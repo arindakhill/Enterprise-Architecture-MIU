@@ -4,16 +4,21 @@ import domain.Customer;
 import domain.Order;
 import domain.OrderLine;
 import domain.Product;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import repositories.OrderRepository;
 
 @SpringBootApplication
 @EnableJpaRepositories("repositories")
 @EntityScan("domain") 
 public class Application implements CommandLineRunner{
+	@Autowired
+	OrderRepository orderRepository;
+
 	
 
 	public static void main(String[] args) {
@@ -43,6 +48,9 @@ public class Application implements CommandLineRunner{
 				"New york", "43221");
 		c1.addOrder(o1);
 		o1.setCustomer(c1);
+
+		orderRepository.save(o1);
+
 
 
 		printOrder(o1);

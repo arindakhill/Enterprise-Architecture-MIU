@@ -1,11 +1,17 @@
 package domain;
 
 
+import jakarta.persistence.*;
 
+@Entity
 public class OrderLine {
+	@Id
+	@GeneratedValue
+	private Long id;
 
 	private int quantity;
 
+	@OneToOne(cascade = CascadeType.PERSIST)
 	private Product product;
 
 	public OrderLine() {

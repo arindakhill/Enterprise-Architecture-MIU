@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b05294a3-fda3-41ba-8fed-c635007f76c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/parta/DepartmentApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/parta/domain/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/parta/domain/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/parta/repositories/DepartmentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partb/BookApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partb/domain/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partb/domain/Publisher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partb/repositories/BookRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partc/FlightApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partc/domain/Flight.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partc/domain/Passenger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partc/repositories/PassengerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partd/StudentApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partd/domain/School.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partd/domain/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/target/classes/partd/repositories/SchoolRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/target/classes/app/OrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/target/classes/domain/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/target/classes/domain/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/target/classes/domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/target/classes/domain/OrderLine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/target/classes/domain/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/target/classes/repositories/OrderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/src/main/java/repositories/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../CLASS REPO/CS544" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/CS544 Payman Salek examples.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /Quiz (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /Screen Shot 2022-12-07 at 8.29.15 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid May 2022/photo_4933937805944531658_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid May 2022/photo_4933937805944531659_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid May 2022/photo_4933937805944531660_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid May 2022/photo_4933937805944531661_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid May 2022/photo_4933937805944531662_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid May 2022/photo_4933937805944531663_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/Screenshot 2022-12-08 at 11.14.02 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/Screenshot 2022-12-08 at 11.37.05 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/Screenshot 2022-12-08 at 11.37.15 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940669243763043177_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194710_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194711_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194712_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194713_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194714_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194715_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194718_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194719_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194720_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194721_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194722_y copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194722_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194724_y copy.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194724_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194725_y.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/EA MID EXAM december /mid december 2022/photo_4940996494501194725_y.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab 9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Lab_6 (1).rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Payman lab solutions/Lab10Solutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Payman lab solutions/Lab1Solutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Payman lab solutions/Lab2Solutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Payman lab solutions/Lab3Solutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Payman lab solutions/Lab4Solutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Payman lab solutions/Lab5Solutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Payman lab solutions/Lab6Solutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Payman lab solutions/Lab7Solutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Payman lab solutions/Lab8Solutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/EA PAYMAN RESOURCES december/LAB QUESTION AND SOLUTION/Payman lab solutions/Lab9Solutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Exam1_052017.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Exam1_052017Sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/ExamSample.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/ExamSampleSolution.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Exercise-07-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CS544-2020-05-Exam1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CS544-2020-05-Exam2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/java/edu/mum/cs/cs544/examples/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/java/edu/mum/cs/cs544/examples/advice/TransactionAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/java/edu/mum/cs/cs544/examples/dao/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/java/edu/mum/cs/cs544/examples/dao/CustomerDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/java/edu/mum/cs/cs544/examples/entity/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/java/edu/mum/cs/cs544/examples/entity/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/java/edu/mum/cs/cs544/examples/entity/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/java/edu/mum/cs/cs544/examples/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/java/edu/mum/cs/cs544/examples/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/java/edu/mum/cs/cs544/examples/service/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/src/main/resources/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/edu/mum/cs/cs544/examples/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/edu/mum/cs/cs544/examples/advice/TransactionAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/edu/mum/cs/cs544/examples/dao/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/edu/mum/cs/cs544/examples/dao/CustomerDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/edu/mum/cs/cs544/examples/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/edu/mum/cs/cs544/examples/entity/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/edu/mum/cs/cs544/examples/entity/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/edu/mum/cs/cs544/examples/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/edu/mum/cs/cs544/examples/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/edu/mum/cs/cs544/examples/service/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/final-2020-03/target/classes/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/src/main/java/edu/miu/cs/cs544/exams/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/src/main/java/edu/miu/cs/cs544/exams/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/src/main/java/edu/miu/cs/cs544/exams/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/src/main/java/edu/miu/cs/cs544/exams/Faculty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/src/main/java/edu/miu/cs/cs544/exams/Grade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/src/main/java/edu/miu/cs/cs544/exams/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/src/main/java/edu/miu/cs/cs544/exams/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/target/classes/edu/miu/cs/cs544/exams/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/target/classes/edu/miu/cs/cs544/exams/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/target/classes/edu/miu/cs/cs544/exams/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/target/classes/edu/miu/cs/cs544/exams/Faculty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/target/classes/edu/miu/cs/cs544/exams/Grade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/target/classes/edu/miu/cs/cs544/exams/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/target/classes/edu/miu/cs/cs544/exams/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/MockExamBy P_Salek/CodingSolutions/midterm-2020-03/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (5).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (6).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (7).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (8).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (9).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/P_Salek1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/P_Salek2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Quiz.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Screen Shot 2022-12-04 at 1.02.10 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Screen Shot 2022-12-04 at 1.04.22 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Screen Shot 2022-12-07 at 11.37.28 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Screen Shot 2022-12-07 at 8.29.27 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Screen Shot 2022-12-07 at 8.30.05 PM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Screen Shot 2022-12-08 at 1.04.56 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Screen Shot 2022-12-08 at 12.21.30 AM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/Exam1_052017.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/Exam1_052017Sol.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/ExamSample.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/ExamSampleSolution.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/Exercise-07-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (5).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (6).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (7).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (8).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM (9).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/New folder/WhatsApp Image 2021-05-25 at 6.00.49 PM.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/Quiz.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Selcted EaExam/ab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+1+Course+intro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+10+SOAP.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+11+Messaging.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+12+Scheduling-Events-Configuration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+13+monitoring.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+14+testing.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+2+Spring+Boot+and+AOP.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+3+JDBC+and+JPA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+4+JPA+mapping+1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+5+JPA+mapping+2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+6+JPA+queries.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+7+transactions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+8+MongoDB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/Slide/Lesson+9+REST.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../EXAM CONTENT/Payman/ab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/ICustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/IEmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/IProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/ProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1PartESolution/src/main/java/customers/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/java/customers/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/java/customers/ICustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/java/customers/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/java/customers/IEmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/java/customers/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartASolution/src/main/resources/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/ICustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/IEmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartBSolution/src/main/resources/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/ICustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/IEmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/ICustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/IEmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/CustomerDAOMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/ICustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/IEmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/Lab2PartAApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartA/src/test/java/customers/Lab2PartAApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/CustomerDAOMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/ICustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/IEmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/Lab2PartBApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/LogAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/java/customers/StopWatchAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartB/src/test/java/customers/Lab2PartBApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/aop/DaoLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/aop/JmsLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/aop/ServiceTimerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/dao/IAccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/domain/AccountEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/jms/IJMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/jms/JMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/logging/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/logging/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/service/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/service/IAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/java/bank/service/ICurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab2Solutions/Lab2PartCandD/src/test/java/customers/Lab2PartAApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartASolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartASolution/src/main/java/products/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartASolution/src/main/java/products/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartASolution/src/main/java/products/ProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartASolution/src/main/java/products/Supplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartASolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartASolution/src/main/resources/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartBSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartBSolution/src/main/java/app/BooksApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartBSolution/src/main/java/domain/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartBSolution/src/main/java/repositories/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab3Solutions/Lab3PartBSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/parta/DepartmentApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/parta/domain/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/parta/domain/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/parta/repositories/DepartmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partb/BookApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partb/domain/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partb/domain/Publisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partb/repositories/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partc/FlightApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partc/domain/Flight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partc/domain/Passenger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partc/repositories/PassengerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partd/StudentApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partd/domain/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partd/domain/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/java/partd/repositories/SchoolRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartB.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/src/main/java/app/OrderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/src/main/java/domain/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/src/main/java/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/src/main/java/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/src/main/java/domain/OrderLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/src/main/java/domain/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/src/main/java/repositories/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/src/main/java/app/OrderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/src/main/java/domain/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/src/main/java/domain/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/src/main/java/domain/CD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/src/main/java/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/src/main/java/domain/DVD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/src/main/java/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/src/main/java/domain/OrderLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/src/main/java/domain/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/src/main/java/repositories/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartASolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartBSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartBSolution/src/main/java/app/AppointmentApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartBSolution/src/main/java/domain/Appointment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartBSolution/src/main/java/domain/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartBSolution/src/main/java/domain/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartBSolution/src/main/java/domain/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartBSolution/src/main/java/repositories/AppointmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartBSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/aop/DaoLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/aop/JmsLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/aop/ServiceTimerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/dao/IAccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/domain/AccountEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/jms/IJMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/jms/JMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/logging/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/logging/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/service/AccountAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/service/AccountDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/service/AccountEntryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/service/AccountEntryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/service/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/service/CustomerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/service/CustomerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/service/IAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/java/bank/service/ICurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab5Solutions/Lab5PartCSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/app/OrderApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/domain/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/domain/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/domain/CD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/domain/DVD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/domain/OrderLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/domain/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/repositories/AddressRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/repositories/CDRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/java/repositories/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartASolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartBSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartBSolution/src/main/java/app/SchoolApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartBSolution/src/main/java/domain/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartBSolution/src/main/java/domain/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartBSolution/src/main/java/domain/Grade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartBSolution/src/main/java/domain/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartBSolution/src/main/java/repositories/CourseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartBSolution/src/main/java/repositories/DepartmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartBSolution/src/main/java/repositories/GradeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartBSolution/src/main/java/repositories/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartBSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartCSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartCSolution/src/main/java/app/LibraryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartCSolution/src/main/java/domain/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartCSolution/src/main/java/repositories/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab6Solutions/Lab6PartCSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartASolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartASolution/src/main/java/bank/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartASolution/src/main/java/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartASolution/src/main/java/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartASolution/src/main/java/bank/integration/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartASolution/src/main/java/bank/repositories/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartASolution/src/main/java/bank/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartASolution/src/main/java/bank/service/BankService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartASolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartBSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartBSolution/src/main/java/bank/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartBSolution/src/main/java/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartBSolution/src/main/java/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartBSolution/src/main/java/bank/integration/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartBSolution/src/main/java/bank/repositories/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartBSolution/src/main/java/bank/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartBSolution/src/main/java/bank/service/BankService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartBSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartCSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartCSolution/src/main/java/bank/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartCSolution/src/main/java/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartCSolution/src/main/java/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartCSolution/src/main/java/bank/domain/TraceRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartCSolution/src/main/java/bank/integration/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartCSolution/src/main/java/bank/repositories/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartCSolution/src/main/java/bank/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartCSolution/src/main/java/bank/repositories/TraceRecordRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartCSolution/src/main/java/bank/service/BankService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab7Solutions/Lab7PartCSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/aop/DaoLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/aop/JmsLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/aop/ServiceTimerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/dao/IAccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/domain/AccountEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/jms/IJMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/jms/JMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/logging/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/logging/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/service/AccountAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/service/AccountDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/service/AccountEntryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/service/AccountEntryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/service/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/service/CustomerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/service/CustomerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/service/IAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/java/bank/service/ICurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartASolution/src/test/java/customers/Lab2PartAApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartBSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartBSolution/src/main/java/students/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartBSolution/src/main/java/students/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartBSolution/src/main/java/students/Grade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartBSolution/src/main/java/students/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartBSolution/src/main/java/students/StudentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartBSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCJPASolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCJPASolution/src/main/java/fetch/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCJPASolution/src/main/java/fetch/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCJPASolution/src/main/java/fetch/OwnerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCJPASolution/src/main/java/fetch/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCJPASolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCMongoSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCMongoSolution/src/main/java/fetch/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCMongoSolution/src/main/java/fetch/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCMongoSolution/src/main/java/fetch/OwnerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCMongoSolution/src/main/java/fetch/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartCMongoSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/aop/DaoLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/aop/JmsLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/aop/ServiceTimerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/dao/IAccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/domain/AccountEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/jms/IJMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/jms/JMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/logging/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/logging/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/service/AccountAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/service/AccountDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/service/AccountEntryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/service/AccountEntryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/service/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/service/CustomerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/service/CustomerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/service/IAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/java/bank/service/ICurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab8Solutions/Lab8PartDSolution/src/test/java/customers/Lab2PartAApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAClientSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAClientSolution/src/main/java/client/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAClientSolution/src/main/java/client/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAClientSolution/src/main/java/client/Books.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAClientSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAServerSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAServerSolution/src/main/java/books/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAServerSolution/src/main/java/books/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAServerSolution/src/main/java/books/BookServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAServerSolution/src/main/java/books/Books.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAServerSolution/src/main/java/books/CustomErrorType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartAServerSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBClientSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBClientSolution/src/main/java/client/AccountDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBClientSolution/src/main/java/client/AccountEntryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBClientSolution/src/main/java/client/Accounts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBClientSolution/src/main/java/client/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBClientSolution/src/main/java/client/BankGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBClientSolution/src/main/java/client/CustomerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBClientSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/aop/DaoLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/aop/JmsLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/aop/ServiceTimerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/dao/IAccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/domain/AccountEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/jms/IJMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/jms/JMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/logging/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/logging/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/service/AccountAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/service/AccountDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/service/AccountEntryAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/service/AccountEntryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/service/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/service/CustomerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/service/CustomerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/service/IAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/service/ICurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/web/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/java/bank/web/Accounts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab9Solutions-2/Lab9PartBSeverSolution/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/CitrixVirtualMachine.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/CustomerRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/EmailSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/java/customers/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/src/main/resources/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/CustomerRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/EmailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/EmailSenderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/customers/LoggerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartD/target/classes/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/CustomerRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/EmailSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/ProductRepositoryImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/java/customers/ProductServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/src/main/resources/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/CustomerRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/EmailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/EmailSenderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/LoggerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/ProductRepositoryImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/customers/ProductServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1/Lab1PartE/target/classes/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/java/customers/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/java/customers/CustomerRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/java/customers/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/java/customers/EmailSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/java/customers/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1PartA/src/main/resources/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/java/customers/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/java/customers/CustomerRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/java/customers/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/java/customers/EmailSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/java/customers/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartASolution/src/main/resources/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/CustomerRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/EmailSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/java/customers/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartBSolution/src/main/resources/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/CustomerRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/EmailSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartCSolution/src/main/java/customers/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/CustomerRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/EmailSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartDSolution/src/main/java/customers/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/CustomerRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/EmailSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/ProductRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/src/main/java/customers/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/CustomerRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/EmailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/EmailSenderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/LoggerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/ProductRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 1/Lab1Solutions/Lab1PartESolution/target/classes/customers/ProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/domain/AccountEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/integration/jms/JMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/integration/jms/JMSSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/integration/logging/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/integration/logging/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/repository/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/repository/AccountRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/service/AccountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/service/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/java/bank/service/CurrencyConverterImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/BankApplication/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/CustomerRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/CustomerRepositoryMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/EmailSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/Lab2PartAApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/java/customers/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartA_solutionLabTwoPartA/src/test/java/customers/Lab2PartAApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/TraceAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/domain/AccountEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/integration/jms/JMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/integration/jms/JMSSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/integration/logging/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/integration/logging/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/repository/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/repository/AccountRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/service/AccountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/service/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/java/bank/service/CurrencyConverterImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/TraceAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/domain/AccountEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/domain/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/integration/jms/JMSSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/integration/jms/JMSSenderImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/integration/logging/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/integration/logging/LoggerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/repository/AccountRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/repository/AccountRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/service/AccountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/service/CurrencyConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/bank/service/CurrencyConverterImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/Lab2PartCandD_solutionLabTwoPartD/BankApplication/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/Lab2EaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/CustomerRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/CustomerServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/EmailSenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/java/com/ea/lab2/customers/LoggerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 2/lab2-ea/src/test/java/com/ea/lab2/Lab2EaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/Lab 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lab3 solutions Hillary.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-boot-jdbc-customer-with-credit-card.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-boot-jdbc-customer-with-credit-card/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-boot-jdbc-customer-with-credit-card/src/main/java/customers/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-boot-jdbc-customer-with-credit-card/src/main/java/customers/CreditCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-boot-jdbc-customer-with-credit-card/src/main/java/customers/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-boot-jdbc-customer-with-credit-card/src/main/java/customers/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-boot-jdbc-customer-with-credit-card/src/main/resources/application-mysql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-boot-jdbc-customer-with-credit-card/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-boot-jdbc-customer-with-credit-card/src/main/resources/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-boot-jdbc-customer-with-credit-card/src/test/java/customers/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartASolution/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/src/main/java/app/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/src/main/java/domain/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/src/main/java/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/src/main/java/repository/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/src/main/java/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/src/main/resources/application-mysql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/target/classes/app/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/target/classes/application-mysql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/target/classes/domain/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/target/classes/domain/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/target/classes/repository/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 3/lesson03-spring-jpa-customer/target/classes/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab4PartB.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/src/main/java/app/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/src/main/java/domain/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/src/main/java/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/src/main/java/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/src/main/java/domain/OrderLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/src/main/java/domain/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/src/main/resources/application-mysql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab4PartB/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Labs_Corrections_byProfessor/Lab4Solutions/Lab4PartBSolution/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/src/main/java/app/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/src/main/java/domain/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/src/main/java/domain/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/src/main/java/repository/DepartmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/src/main/java/repository/EmployeeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/src/main/resources/application-mysql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/target/classes/app/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/target/classes/application-mysql.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/target/classes/domain/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/target/classes/domain/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/target/classes/repository/DepartmentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 4/lab4 part A soln/target/classes/repository/EmployeeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK  2/Lesson+6+JPA+queries.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK  2/Lesson+7+transactions.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK  2/Lesson+8+MongoDB.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/Lesson+1+Course+intro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/Lesson+2+Spring+Boot+and+AOP.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/Lesson+3+JDBC+and+JPA.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/Lesson+4+JPA+mapping+1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/Lesson+5+JPA+mapping+2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/demo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/demo/src/main/java/com/enterpriseArchitectureHills/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/demo/src/test/java/com/enterpriseArchitectureHills/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/src/main/java/com/ea/aop/hillaryaop/HillaryAopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/src/main/java/com/ea/aop/hillaryaop/controller/AppController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/src/main/java/com/ea/aop/hillaryaop/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/src/main/java/com/ea/aop/hillaryaop/entity/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 1/hillary-aop/src/test/java/com/ea/aop/hillaryaop/HillaryAopApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 3/Lesson+12+Messaging.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 3/Lesson+12+Monitoring.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 3/Lesson+13+Scheduling-Events-Configuration.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 3/Lesson+14+Testing+Spring+Applications.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK 3/Lesson+9+REST.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../MYSQL/sqlyog_installer.exe" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2Yxdc7vYG2XuBhu6k5L61DiprkO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/rindzo/Desktop/MAHARISHI AUG 2023 ENTRY/4. EA/LABS/WEEK 1/DAY 5/Lab5PartB/pom.xml",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b05294a3-fda3-41ba-8fed-c635007f76c3" name="Changes" comment="" />
+      <created>1701471241582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701471241582</updated>
+      <workItem from="1701471243455" duration="10000" />
+    </task>
+    <servers />
+  </component>
+</project>
