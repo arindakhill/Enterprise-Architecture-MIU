@@ -1,14 +1,26 @@
 package domain;
 
+import jakarta.persistence.*;
 
+import java.time.LocalDate;
+
+@Entity
 public class Appointment {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+private long id;
 
 	private String appDate;
 
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "patient")
 	private Patient patient;
 
+	@Embedded
 	private Payment payment;
-
+@OneToOne(cascade = CascadeType.ALL)
+@JoinColumn(name = "doctor")
 	private Doctor doctor;
 
 	public Appointment() {
@@ -54,4 +66,14 @@ public class Appointment {
 		this.doctor = doctor;
 	}
 
+	@Override
+	public String toString() {
+		return "Appointment{" +
+				"id=" + id +
+				", appDate='" + appDate + '\'' +
+				", patient=" + patient +
+				", payment=" + payment +
+				", doctor=" + doctor +
+				'}';
+	}
 }

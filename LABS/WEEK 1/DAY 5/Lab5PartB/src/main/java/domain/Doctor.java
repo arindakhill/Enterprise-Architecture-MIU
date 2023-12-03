@@ -1,8 +1,14 @@
 package domain;
 
+import jakarta.persistence.*;
 
+@Entity
 public class Doctor {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long id;
 
+@Column(name = "Type")
 	private String doctorType;
 
 	private String firstName;
