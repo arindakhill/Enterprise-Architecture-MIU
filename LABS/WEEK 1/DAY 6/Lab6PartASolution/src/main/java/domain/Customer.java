@@ -7,6 +7,7 @@ import java.util.Collection;
 
 
 @Entity
+@NamedQuery(name = "Customer.findByCountry", query = "select c from Customer c where c.address.country = :country")
 public class Customer {
     private String firstname;
     private String lastname;

@@ -5,48 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b05294a3-fda3-41ba-8fed-c635007f76c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/target/classes/app/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/target/classes/application-mysql.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/target/classes/domain/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/target/classes/domain/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/target/classes/domain/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/target/classes/domain/OrderLine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/target/classes/domain/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/target/classes/repository/OrderRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/AppointmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC.../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC.../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC.../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC.../.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC.../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC.../.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC.../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5PartC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 6/Lab6PartASolution/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 6/Lab6PartASolution/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 6/Lab6PartASolution/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 6/Lab6PartASolution/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 6/Lab6PartASolution/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 6/Lab6PartASolution/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DAY 6/Lab6PartASolution/src/main/java/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 4/Lab4Solutions/Lab4PartBSolution/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5PartB.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5PartB.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Appointment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../LECTURES/WEEK  2/Lesson+6+JPA+queries.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DAY 6/Lab6PartASolution/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../DAY 6/Lab6PartASolution/src/main/java/app/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
